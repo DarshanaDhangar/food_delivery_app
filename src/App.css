@@ -1,0 +1,162 @@
+.App {
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+.Header {
+  background-color: white;
+  box-shadow: 0px 0px black;
+}
+
+.imagecss {
+  border-radius: 50%;
+  border: 1px solid #555;
+  size: 2rem;
+  object-fit: cover;
+}
+.upperLeftHeader{
+  display: flex;
+  flex-direction: row;
+}
+.upperHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.titleHeader {
+  padding-left: 5px;
+}
+
+.title1 {
+  color: #555;
+  font-size: small;
+  font: small-caption;
+  margin-right: 20px;
+}
+
+.title2 {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  margin-right: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font: bolder;
+}
+
+.lowerHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.lowerLeftHeader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.searchInput {
+  border: 0;
+  background-color: rgb(225, 221, 221);
+  width: 100%;
+  block-size: 30px;
+  padding-left: 30px;
+}
+
+.image3css {
+  position: absolute;
+  padding: 8px;
+}
+
+.lowerRightHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  position: relative;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.image5css:hover {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.offerInp {
+  padding: 10px;
+  position: absolute;
+  margin-top: 50px;
+  font-size: small;
+  color: snow;
+}
+
+.image5css {
+  padding: 5px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.text2 {
+  color: #555;
+  font-size: small;
+}
+
+.restoList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.restoCard {
+  flex-direction: column;
+  padding: 5px;
+  background-color: white;
+}
+
+.restoCard:hover {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.starRating {
+  display: flex;
+  flex-direction: row;
+}
+
+.locationAdd {
+  display: flex;
+  flex-direction: row;
+}
+
+.rating {
+  color: #555;
+  font-size: small;
+}
+
+.address {
+  color: #555;
+  font-size: small;
+}
